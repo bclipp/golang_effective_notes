@@ -6,3 +6,9 @@
 
 Public vs Private:
 
+Go doesn't have the concept of Public and Private but if you name with a capital ,it will be
+"public" from other packages perspective.
+
+type IamPublic struct {}
+
+type IamPrivate struct {}
